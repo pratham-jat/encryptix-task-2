@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <navbar>
+        <div class="logo">
+            <h1>Pratham Jat</h1>
+        </div>
+        <div class="options">
+            <a href="#" class="tag">Home</a>
+            <a href="about.html" class="tag">About</a>
+            <a href="#"
+                class="tag">Resume</a>
+            <a href="mailto:prathamjat152@gmail.com" class="tag">E-mail</a>
+        </div>
+    </navbar>
+    <main>
+        <div class="head">
+            <p>Hey There!</p>
+            <p>I am Pratham Jat</p>
+            <P>Web Development</P>
+            <button onclick="scrollToContact()">Contact Me</button>
+            <img src="work.png" alt="Programmer">
+        </div>
+        <section class="about">
+            <h2>Let Me Introduce Myself</h2>
+            <br>
+            <div>
+                <ol>
+                    <li> I fell in love with programming and I have at least learnt something, I think… 
+                    </li>
+                    <li> I am fluent in classics like HTML, CSS, Python, Java, and Javascript.
+                    </li>
+                    <li>My field of Interest's are building new Web Technologies, websites, And designing Web Pages with
+                        latest
+                        Technologies.
+                    </li>
+                    <li>Whenever possible, I also apply my passion for developing products with Figma and Frameworks
+                        like
+                        React.js and node.js.
+                    </li>
+                </ol>
+            </div>
+        </section>
+        <section class="Contact" id="Contact">
+            <h2>Contact On</h2>
+            <p class="point">Feel free to connect with me</p>
+            <div class="media"><a href="#"><i id="Social-icons"
+                        class="fa-brands fa-facebook"></i></a></div>
+            <div class="media"><a href="#"><i id="Social-icons"
+                        class="fa-brands fa-github"></i></a></div>
+            <div class="media"><a href="#"><i id="Social-icons"
+                        class="fa-brands fa-linkedin"></i></a></div>
+            <div class="media"><a href="#"><i id="Social-icons"
+                        class="fa-brands fa-instagram"></i></a></div>
+            <img src="Image.png" alt="Skills">
+        </Section>
+    </main>
+    <footer>
+        <p class="design">Design By Pratham</p>
+        <div>Copyright © 2024. All Rights Reserved</div>
+
+    </footer>
+    <script>
+        function scrollToContact(){
+            document.getElementById("Contact").scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+    </script>
+</body>
+
+</html>
